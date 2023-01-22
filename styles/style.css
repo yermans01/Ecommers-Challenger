@@ -1,0 +1,301 @@
+:root {
+  --bg-color: #ebebeb;
+  --input-placeholder: #d4d4d4;
+  --input-bg: #efefef;
+  --texto-destaque: #FFFF;
+  --azul-destaque: #2a7ae4;
+  --bg-contacto: #Eaf2fd;
+  --texto-gral:#464646
+}
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Releway', sans-serif;
+  background-color: var(--bg-color);
+}
+/*--------------------Patrón del proyecto--------------------*/
+textarea:focus, input:focus {
+  box-shadow:0 0 0 0;
+  border: 0 none;
+  outline: 0;
+} 
+
+input::placeholder, textarea::placeholder{
+  color: var(--input-placeholder);
+  padding: 2%;
+}
+
+a {
+  text-decoration: none;
+  color: var(--azul-destaque);
+  font-weight: 800;
+}
+
+button{
+  cursor: pointer;
+}
+/*--------------------Header General--------------------*/
+header{
+  background-color: var(--texto-destaque);
+  padding: 1% 10%;
+}
+
+nav
+{
+  display: flex;
+  align-items: center;
+}
+
+.logo-busqueda{
+  width: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo,.referencia{
+  display: flex;
+  align-items: center;
+}
+.logo img{
+  height: 30px;
+  width: 40px;
+}
+
+.logo p{
+  font-size:26px;
+  font-weight:bold
+}
+
+.logo .logo-azul{
+  margin-left: 10px;
+  color:var(--azul-destaque);
+}
+
+.logo-busqueda input{
+  margin-left: 6%;
+  width: 395px;
+  height: 40px;
+  border-radius: 30px;
+  padding: 1% 3%;
+  border: none;
+  background-color: var(--input-bg);
+  background-image: url(../assets/lupa.png);
+  background-repeat: no-repeat;
+  background-position:right;
+  background-position-x: 320px;
+}
+
+.login{
+  width: 600px;
+  display: flex;
+  justify-content: end;
+}
+
+.login button
+{
+  width: 180px;
+  height: 50px;
+  background: none;
+  border: 1px solid var(--azul-destaque);
+  text-transform: uppercase;
+}
+
+.login button:hover{
+  background-color:var(--azul-destaque);
+  color: var(--texto-destaque);
+}
+
+
+/*--------------------Divs del Header--------------------*/
+
+.destaque{
+  height: 22vw;
+  width: 100%;  
+  margin-bottom: 3rem;
+}
+
+
+
+/*--------------------Banner Promocional--------------------*/
+.banner{
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-image: url(../assets/banner.png); 
+  background-repeat:no-repeat; 
+  padding:0 0 2.2% ;  
+  display: flex;
+  flex-direction:column;
+  justify-content: end;
+}
+
+
+.banner h1{
+  color: var(--texto-destaque);
+  font-size: 52px;
+  margin: 1rem 0;
+  margin-left: 130px;
+}
+
+.banner h4{
+  color: var(--texto-destaque);
+  font-size: 1.5em;
+  font-weight: bold;
+  margin:1rem 0;
+  margin-left: 10%;
+}
+
+.banner button{
+  background-color: var(--azul-destaque);
+  border: none;
+  width: 10%;
+  height: 20%;
+  color: var(--texto-destaque);
+  margin-left: 10%;
+}
+
+/*--------------------Sección de productos--------------------*/
+.geral-prods
+{
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  margin: 0 auto;
+}
+
+/*-----------------Divs en la Sección de Productos-------------*/
+.prod-titulo{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.prod-titulo .titulo{
+  font-size: 32px;
+  font-weight:bold; 
+}
+
+.mostrar-mas{
+  font-weight: bold;
+  margin-top: 35px;
+  color: var(--azul-destaque);
+}
+
+.productos{
+  width: 90vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  display: flex;
+  flex-wrap:wrap;
+}
+
+/*--------------------Form Contacto--------------------*/
+
+.contacto{
+  background-color: var(--bg-contacto);
+  width: 100vw;
+  display: flex;
+  justify-content:space-around;
+}
+
+.contacto__container{
+  display: flex;
+  justify-content:space-between;
+  align-items: flex-start;
+  padding: 3rem 0;
+  width: 60vw;
+}
+
+.contacto__referencia--containter{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items: flex-start;
+}
+
+.referencia{
+  margin-right: 8rem;
+}
+
+.referencia img{
+  height: 30px;
+  width: 40px;
+}
+
+.referencia p{
+  font-size:26px;
+  font-weight:bold;
+  color:var(--texto-gral);
+}
+
+.referencia .logo-azul{
+  margin-left: 10px;
+  color:var(--azul-destaque);
+}
+
+.links-utiles{
+  display: flex;
+  flex-direction: column;
+}
+
+.links-utiles a{
+  color:var(--texto-gral) ;
+  font-weight: normal;
+  margin-bottom: 1em;
+}
+
+.form{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.form p{
+  font-weight: bold;
+  color:var(--texto-gral) ;
+  margin: 0;
+}
+
+.input-nombre,.input-mensaje, .form button, .mostrar-mas button,.input-descripcion
+{
+  width: 150%;
+  margin: 0.5rem 0;
+  padding: 1.5em;
+  border-radius: 2px;
+  box-shadow: 1px 1px 1px gray;
+}
+
+.form button, .mostrar-mas button{
+  width: 170px;
+  color: var(--input-bg);
+  background: var(--azul-destaque);
+}
+
+footer{
+  padding: 2.5em;
+  background:white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+}
+
+footer p{ 
+  margin: 0;  
+  color:var(--texto-gral) ;
+}
+
+.input-descripcion{
+  width: 25%;
+  height: 6em;
+}
+
+.menu_Administrador__boton{
+  color: var(--azul-destaque);
+}

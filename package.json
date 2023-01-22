@@ -1,0 +1,11 @@
+{
+  "name": "04-alurageek",
+  "version": "1.0.0",
+  "description": "Challenger Alura Geek",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "German Salazar",
+  "license": "ISC"
+}

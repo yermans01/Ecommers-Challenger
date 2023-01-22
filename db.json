@@ -1,0 +1,183 @@
+{
+    "producto": [
+        {
+            "name": "canecasw",
+            "imageUrl": "assets/canecasw.png" ,
+            "price": "100.00",
+            "id": 1,
+            "alt": "canecasw foto",
+            "section": "Star Wars",
+            "description":"Taza stormtropper "
+        }
+        ,
+        {
+            "name": "legosw",
+            "imageUrl":"assets/legosw.png",
+            "price": "100.00",
+            "id": 2,
+            "alt": "Foto Cascos Star Wars lego",
+            "section": "Star Wars",
+            "description": "Cascos Star Wars lego"
+        }
+        ,
+        {
+            "name": "yoda",
+            "imageUrl": "assets/yoda.png",
+            "price": "100.00",
+            "id": 3,
+            "alt": "Foto producto Yoda",
+            "section": "Star Wars",
+            "description": "Estatua mini yoda"
+        }
+        ,
+        {
+            "name": "stormtropper",
+            "imageUrl": "assets/stormtropper.png",
+            "price": "100.00",
+            "id": 4,
+            "alt": "Foto stormtropper",
+            "section": "Star Wars",
+            "description": "Estatua stormtropper"
+        }
+        ,
+        {
+            "name": "babyyoda",
+            "imageUrl": "assets/babyyoda.png",
+            "price": "200.00",
+            "id": 5,
+            "alt": "Foto Yoda bebe",
+            "section": "Star Wars",
+            "description": "Muñeco babyyoda"
+        }
+        ,
+        {
+            "name": "mandalorian",
+            "imageUrl": "assets/mandalorian.png",
+            "price": "200.00",
+            "id": 6,
+            "alt": "Foto muñeco mandalorian ",
+            "section": "Star Wars",
+            "description": "muñeco mandalorian"
+        }
+        ,
+        {
+            "name": "Xbox",
+            "imageUrl": "assets/jsxbox.png",
+            "price": "300.00",
+            "id": 7,
+            "alt": "Foto jsxbox",
+            "section": "Consolas",
+            "description": "Jostick Xbox"
+        }
+        ,
+        {
+            "name": "ps5",
+            "imageUrl": "assets/ps5.png",
+            "price": "300.00",
+            "id": 8,
+            "alt": "Foto ps5",
+            "section": "Consolas",
+            "description": "Consola ps5"
+        }
+        ,
+        {
+            "name": "snes",
+            "imageUrl": "assets/snes.png",
+            "price": "300.00",
+            "id": 9,
+            "alt": "Foto snes",
+            "section": "Consolas",
+            "description": "Consola snes"
+        }
+        ,
+        {
+            "name": "switch",
+            "imageUrl": "assets/switch.png",
+            "price": "300.00",
+            "id": 10,
+            "alt": "Foto switch",
+            "section": "Consolas",
+            "description": "Consola switch"
+        }
+        ,
+        {
+            "name": "console",
+            "imageUrl": "assets/console.png",
+            "price": "300.00",
+            "id": 11,
+            "alt": "Foto console",
+            "section": "Consolas",
+            "description": "Consola console"
+        }
+        ,
+        {
+            "name": "gba",
+            "imageUrl": "assets/gba.png",
+            "price": "300.00",
+            "id": 12,
+            "alt": "Foto Game Boy Advance",
+            "section": "Consolas",
+            "description": "Consolas Game Boy Advance"
+        }
+        ,
+        {
+            "name": "atari",
+            "imageUrl": "assets/atari.png",
+            "price": "250.00",
+            "id": 13,
+            "alt": "Foto atari",
+            "section": "Varios",
+            "description": "Otros atari"
+        }
+        ,
+        {
+            "name": "camisasnes",
+            "imageUrl": "assets/camisasnes.png",
+            "price": "250.00",
+            "id": 14,
+            "alt": "Foto camisa snes",
+            "section": "Varios",
+            "description": "Otros camisa snes"
+        }
+        ,
+        {
+            "name": "sonic",
+            "imageUrl": "assets/sonic.png",
+            "price": "250.00",
+            "id": 15,
+            "alt": "Foto sonic",
+            "section": "Varios",
+            "description": "Otros sonic"
+        }
+        ,
+        {
+            "name": "relogio",
+            "imageUrl": "assets/relogio.png",
+            "price": "250.00",
+            "id": 16,
+            "alt": "Foto relogio",
+            "section": "Varios",
+            "description": "Otros relogio"
+        }
+        ,
+        {
+            "name": "vr",
+            "imageUrl": "assets/vr.png",
+            "price": "250.00",
+            "id": 17,
+            "alt": "Foto vr",
+            "section": "Varios",
+            "description": "Otros vr"
+        }
+        ,
+        {
+            "name": "pikachu",
+            "imageUrl": "assets/pikachu.png",
+            "price": "250.00",
+            "id": 18,
+            "alt": "Foto pikachu",
+            "section": "Varios",
+            "description": "Otros pikachu"
+        } 
+    ]
+}
