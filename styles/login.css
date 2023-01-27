@@ -1,3 +1,6 @@
+nav{
+  margin-left: 150px;
+}
 .logo-buscar{
     width: 700px;
     display: flex;
@@ -5,6 +8,7 @@
 }
 .log{
     display: flex;
+    align-items: center;
 }
 .log img{
     height: 30px;
@@ -16,12 +20,12 @@
     right: 0%;
 }
 .alura{
-    margin-left: 10px;
+    margin-left: 150px;
     font-size: 26px;
     color:var(--azul-destaque);
 }
 .geek{
-    margin-left: 72px;
+    margin-left: 215px;
     font-size:26px;
     font-weight:bold
 }
