@@ -1,0 +1,17 @@
+.btn_productos{
+    font-weight: bold;
+    margin-top: 35px;
+}
+.btn_productos button{
+    width: 180px;
+    height: 50px;
+    background: none;
+    border: 1px solid var(--azul-destaque);
+    text-transform: uppercase;
+}
+
+.btn_productos button:hover{
+    background-color:var(--azul-destaque);
+    color: var(--texto-destaque);
+}
+/*--------------------------------------------*/
